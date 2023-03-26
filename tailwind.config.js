@@ -7,7 +7,11 @@ module.exports = {
     ],
     darkMode: 'media',
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                sans: ['Balsamiq Sans']
+            },
+        },
     },
     variants: {
         extend: {},
